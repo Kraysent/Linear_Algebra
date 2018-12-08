@@ -1,0 +1,9 @@
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\bin\Debug\netstandard2.0\Linear_Algebra.deps.json
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\bin\Debug\netstandard2.0\Linear_Algebra.dll
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\bin\Debug\netstandard2.0\Linear_Algebra.pdb
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\obj\Debug\netstandard2.0\Linear_Algebra.csprojAssemblyReference.cache
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\obj\Debug\netstandard2.0\Linear_Algebra.csproj.CoreCompileInputs.cache
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\obj\Debug\netstandard2.0\Linear_Algebra.AssemblyInfoInputs.cache
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\obj\Debug\netstandard2.0\Linear_Algebra.AssemblyInfo.cs
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\obj\Debug\netstandard2.0\Linear_Algebra.dll
+D:\Coding\C#\Linear_Algebra\Linear_Algebra\obj\Debug\netstandard2.0\Linear_Algebra.pdb
