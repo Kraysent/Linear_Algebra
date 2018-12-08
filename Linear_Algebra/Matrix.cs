@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Math;
 using System.Linq;
 
 namespace Linear_Algebra
@@ -8,6 +9,29 @@ namespace Linear_Algebra
         double[][] Values;
         public int LinesNumber { get => Values.Length; }
         public int ColumnsNumber { get => Values[0].Length; }
+
+        /// <summary>
+        /// Returns the norm of Matrix
+        /// </summary>
+        /// <returns></returns>
+        public double Norm
+        {
+            get
+            {
+                int i, j;
+                double output = 0;
+
+                for (i = 0; i < LinesNumber; i++)
+                {
+                    for (j = 0; j < ColumnsNumber; j++)
+                    {
+                        output += Pow(this[i, j], 2);
+                    }
+                }
+
+                return Sqrt(output);
+            }
+        }
 
         /// <summary>
         /// Initialises new Matrix with n lines and m columns
