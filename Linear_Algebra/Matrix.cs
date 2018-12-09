@@ -1,12 +1,11 @@
 ﻿using System;
 using static System.Math;
-using System.Linq;
 
 namespace Linear_Algebra
 {
     public class Matrix
     {
-        double[][] Values;
+        protected double[][] Values;
         public int LinesNumber { get => Values.Length; }
         public int ColumnsNumber { get => Values[0].Length; }
 
@@ -49,10 +48,23 @@ namespace Linear_Algebra
             }
         }
 
+        /// <summary>
+        /// Initialises Matrix with specific values
+        /// </summary>
+        /// <param name="values"></param>
+        public Matrix(double[][] values)
+        {
+            Values = values;
+        }
+
         public double this[int line, int column]
         {
             get => Values[line][column];
             set => Values[line][column] = value;
+        }
+        public Vector this[int line]
+        {
+            get => new Vector(Values[line]);
         }
 
         public static Matrix operator *(double number, Matrix matrix)
